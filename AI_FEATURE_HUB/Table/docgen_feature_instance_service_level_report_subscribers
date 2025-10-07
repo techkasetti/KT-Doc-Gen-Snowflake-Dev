@@ -1,0 +1,1 @@
+CREATE OR REPLACE TABLE AI_FEATURE_HUB.docgen_feature_instance_service_level_report_subscribers ( id STRING PRIMARY KEY, parent_id STRING, incident_id STRING, instance_ref STRING, feature_key STRING, org_id STRING, payload VARIANT, created_at TIMESTAMP_LTZ DEFAULT CURRENT_TIMESTAMP() );
